@@ -1,0 +1,26 @@
+{
+  "name": "exameni",
+  "version": "1.0.0",
+  "description": "Examen Primer Parcial Seminario de Software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegolopez03/ExamenI.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "handlebars",
+    "examen"
+  ],
+  "author": "Diego López",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegolopez03/ExamenI/issues"
+  },
+  "homepage": "https://github.com/diegolopez03/ExamenI#readme"
+}
