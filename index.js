@@ -2,6 +2,8 @@
 //Express
 const express = require("express");
 
+//Handlebars
+const exphbs = require("express-handlebars");
 
 
 
@@ -12,11 +14,10 @@ const express = require("express");
 // Crear un servidor express
 const app = express();
 
+// Indicar a express utilizar handlebars como template engine
+app.engine("hbs", exphbs({ defaultLayout: "main", extname: ".hbs" }));
 
-
-
-
-
+app.set("view engine", "hbs");
 
 
 
