@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/diegolopez03/ExamenI/issues"
   },
-  "homepage": "https://github.com/diegolopez03/ExamenI#readme"
+  "homepage": "https://github.com/diegolopez03/ExamenI#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
