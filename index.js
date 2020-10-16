@@ -5,8 +5,8 @@ const express = require("express");
 //Handlebars
 const exphbs = require("express-handlebars");
 
-
-
+// Body parser
+const bodyParser = require("body-parser");
 
 
 
@@ -19,6 +19,8 @@ app.engine("hbs", exphbs({ defaultLayout: "main", extname: ".hbs" }));
 
 app.set("view engine", "hbs");
 
+// Implementar body parser
+app.use(bodyParser.urlencoded({ extended: true }));
 
 
 // Ruta /
