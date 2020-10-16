@@ -21,6 +21,10 @@ app.set("view engine", "hbs");
 
 
 
+// Ruta /
+app.get("/", (req, res, next) => {
+  res.render("formulario_interes");
+});
 
 
 
