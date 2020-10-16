@@ -12,7 +12,7 @@ exports.calculoInteres = (monto, periodo, interes) => {
     
 
 
-    for (let i = 1; i <= periodo; i++) {
+    for (let i = 0; i < periodo; i++) {
         saldoFinal = monto * ((1 + tasaInteresDecimal) ** i); 
         interesS = saldoFinal * tasaInteresDecimal; 
         interesS.toFixed(2);
