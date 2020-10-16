@@ -1,0 +1,24 @@
+<h1 class="mt-3">Tabla de retorno del Interés del préstamo</h1>
+
+{{#if filas}}
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Período</th>
+            <th scope="col">Depósitos</th>
+            <th scope="col">Interés</th>
+            <th scope="col">Saldo final</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each filas}}
+        <tr>
+            <th scope="row">{{i}}</th>
+            <th scope="row">{{monto}}</th>
+            <th scope="row">{{interesS}}</th>
+            <th scope="row">{{saldoFinal}}</th>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+{{/if}}
